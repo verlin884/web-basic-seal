@@ -31,19 +31,20 @@
             z-index: 1000;
             transition: 0.5s;
         }
-        ul {
+        nav ul {
              display: flex;
         }
 
-        ul li a{
+        nav ul li a{
             padding: 10px 22px;
             color: var(--second-color);
-            border-radius: 2px;
+            border-radius: 1px;
             font-weight: 600;
             letter-spacing: 1px;
+            margin-right: 95px;
         }
 
-        ul li a:hover{
+        nav ul li a:hover{
             background: var(--second-color);
             color: var(--main-color);
             border: none;
@@ -56,6 +57,9 @@
         .all{
             margin-top: 100px;
         }
+        .klo{
+            "margin-left: 20px"
+        }
     </style>
     <link rel="stylesheet" href="./style.css">
 </head>
@@ -64,11 +68,10 @@
     <!-- navbar -->
     <nav>
 
-        <a href="#" class="logo"> SYEVI</a>
-        <div class="toggle"></div>
+        <a href="#"> SYEVI</a>
 
     <!-- menu -->
-    <ul class="menu">
+    <ul >
 
         <li> <a href="#"> Home</a></li>
         <li> <a href="#"> Biodata</a></li>
@@ -78,9 +81,7 @@
     </ul>
     </nav>
     <div class="all">
-
-    
-    <div class="satu">
+    <div >
         <b>
             <h1 style="text-align:center;"> Syevi Fatimatul Husna</h1>
         </b>
@@ -118,7 +119,7 @@
 
     <div>
         <h2 class="para-external">Keahlian saya</h2>
-        <ul style="margin-left: 20px">
+        <ul class="klo">
         <li>Kreatif dan Inovatif</li>
         <li>dapat bernegosiasi dengan baik</li>
         <li>dapat mudah beradaptasi dan fleksibel</li>
@@ -130,7 +131,7 @@
 
     <div>
         <h2 class="para-external">Pendidikan saya</h2>
-        <ul style="margin-left: 20px">
+        <ul class="klo">
         <li>Universitas Jember </li>
         <li>SMA N 1 Bangorejo </li>
         <li>SMP N 2 Kuta Utara</li>
@@ -139,7 +140,7 @@
 
     <div>
         <h2 class="para-external">Kontak Saya</h2>
-        <ul style="margin-left: 20px">
+        <ul class="klo">
         <p><a href="https://instagram.com/syevi_66">Instagram</a></p>
         <p><a href="https://t.me/iveys">Telegram</a></p>
         <p><a href="portofolio.html">Portofolio</a></p>
